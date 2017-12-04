@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    
+    <header>
+        <title>Assignment 3.2</title>
+    </header>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+    
+</head>
+
+<body>
+	<div class="alert alert-info" role="alert"><h1>Assignment 9.1</h1></div>
+    <div id="container">
+   <button type="button" title="Left" class="btn btn-primary" data-container="body" data-toggle='popover' data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on left
+</button>
+
+<button type="button" title="Top" class="btn btn-info" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on top
+</button>
+
+<button type="button" title="Bottom" class="btn btn-warning" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on bottom
+</button>
+
+<button type="button" title="Right" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on right
+</button>
+		<div id="instruction">Note: Click on the button to display the popover</div>
+		</div>
+
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/tether.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	
+	<script>
+		$(document).ready(function () {
+  			
+			$("[data-toggle='popover']").popover();
+			//alert("hi")
+			
+		})
+	
+	</script>
+</body>
+</html>

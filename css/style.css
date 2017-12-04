@@ -1,0 +1,14 @@
+#container{
+	align-content: center;
+	margin: 300px;
+}
+
+#instruction{
+	align-content: center;
+	margin-top: 120px;
+}
+#header{
+	align-content: center;
+	margin: 30px;
+	background-color: aqua;
+}
